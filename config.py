@@ -1,0 +1,1 @@
+database_URI = "sqlite:///Resources/hawaii.sqlite"
