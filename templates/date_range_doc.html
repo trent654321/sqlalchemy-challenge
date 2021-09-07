@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+{% block body %}
+<div><h3>{{ title }}</h3></div>
+<div>
+    <p>The url is '{{ url }}'</p>
+    <p>It returns {{ ret }}</p>
+    <p>
+        Some examples are 
+    {% for example in examples %}
+    <a href={{ example }}>{{ example }}</a>
+    {% endfor %}
+    </p>
+</div>
+{% endblock %}

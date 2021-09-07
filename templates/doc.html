@@ -2,8 +2,7 @@
 {% block body %}
 <div><h3>{{ title }}</h3></div>
 <div>
-    <p>The url is '{{ url }}'</p>
-    <p>It returns '{{ ret }}'</p>
-    <p>An example is '<a href={{ example }}>{{ example }}</a>}</p>
+    <p>The url is <a href={{ url }}>{{ url }}</a></p>
+    <p>It returns {{ ret }}</p>
 </div>
 {% endblock %}
